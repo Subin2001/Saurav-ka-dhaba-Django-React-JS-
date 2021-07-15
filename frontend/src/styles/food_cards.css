@@ -1,0 +1,25 @@
+.card-container{
+    display: grid;
+    width: 1200px;  
+    height: auto;
+    margin: 0 auto;  
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto; 
+    gap: 3%;
+}
+.card-container .food-card{
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    width: 350px;
+    background: yellowgreen;
+    border: 2px solid;
+    border-radius: 10px;
+    background: rgba(5, 19, 32, 1);
+    justify-content: space-evenly;
+}
+.card-container .food-card:hover{
+    transform: scale(1.05);
+    transition: all .2s;
+    cursor: pointer;
+}

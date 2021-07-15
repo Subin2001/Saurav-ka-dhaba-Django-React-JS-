@@ -1,0 +1,23 @@
+.control-container{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; 
+    width: 90%;
+    margin: 4% auto;
+    border-bottom: 1px solid rgba(128, 194, 214, 0.5);
+}
+.control-container .butn{
+    margin-left: 4%;
+    margin-right: 2%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+    padding: 11px 53px;
+    margin-bottom: 1%;
+}
+.control-container .butn:hover{
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    font-size: 20px;
+    border: 2px solid white;
+    transition: all .2s;
+}
