@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/header_banner.css'
 
 function Header_banner() {
     return (

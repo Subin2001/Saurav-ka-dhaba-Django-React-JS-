@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/food_cards.css'
 
 function Food_Cards() {
     return (
