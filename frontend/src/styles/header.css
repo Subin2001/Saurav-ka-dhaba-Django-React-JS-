@@ -1,0 +1,53 @@
+.header-container{
+    background: rgba(0, 0, 0, 0.5);
+    height: 500px;
+    border: 2px solid;
+}
+.header-top{
+    display: flex;
+    border: 2px solid;
+    width: 90%;
+    margin: 0 auto;
+    height: 70px;
+}
+.header-top .left-section{
+    display: flex;
+    width: 35%; 
+}
+.header-top .left-section .logo{
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 250%;
+}
+.header-top .left-section .title{
+    width: 82%; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 157%;
+    cursor: pointer;
+}
+.header-top .left-section .title:hover{
+    transform: scale(1.10);
+    margin-left: 25px;
+    transition: all .5s;
+}
+.header-top .right-section{
+    display: flex;  
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-top .right-section span:hover,.search-icon:hover,.cart-icon:hover,.usr-icon:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all .2s;
+}
+.header-top .right-section .cart-icon{
+    font-size: 152%;
+}
+.header-top .right-section .usr-icon{
+    font-size: 200%;
+}

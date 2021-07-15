@@ -2,12 +2,8 @@
 
 body{
     font-family: 'Arvo', serif;
-    color: white !important ;
-    background-color: rgb(5, 25, 43)!important;
-}
-.card-body{
-    color: black ;
-}
-.carousel .carousel-inner {
-    margin-left: 2%;
-}
+    color: white;
+    background-color: rgb(5, 25, 43);
+    margin: 0 auto;
+    width: 1360px;  
+} 
