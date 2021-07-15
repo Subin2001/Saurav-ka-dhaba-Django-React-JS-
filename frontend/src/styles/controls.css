@@ -13,6 +13,13 @@
     border-radius: 50px;
     padding: 11px 53px;
     margin-bottom: 1%;
+    width: 8%;
+}
+.control-container .butn i{ 
+    margin-left: 10%;
+}
+.control-container .butn:first-child{
+    width: 8%;
 }
 .control-container .butn:hover{
     background: rgba(0, 0, 0, 0.5);

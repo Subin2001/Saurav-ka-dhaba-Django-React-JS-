@@ -1,14 +1,12 @@
 .header-container{
     background: rgba(0, 0, 0, 0.5);
-    height: 500px;
-    border: 2px solid;
+    height: 500px; 
 }
 .header-top{
-    display: flex;
-    border: 2px solid;
+    display: flex; 
     width: 90%;
     margin: 0 auto;
-    height: 70px;
+    height: 15%;
 }
 .header-top .left-section{
     display: flex;

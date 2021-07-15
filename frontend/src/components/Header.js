@@ -1,4 +1,5 @@
 import React from 'react'
+import Header_banner from './Header_banner'
 
 function Header() {
     return (
@@ -24,6 +25,7 @@ function Header() {
                     </div>
                 </div>
             </div>
+            <Header_banner />
         </div>
     )
 }

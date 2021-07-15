@@ -6,16 +6,17 @@ import Controls from './components/Controls'
 import './styles/controls.css'
 import './styles/food_cards.css'
 import './styles/header.css'
+import './styles/header_banner.css'
 
 
 function App() {
   return (
     <div className="App"> 
         <Header />  
-        {/* <MostPopular />
+        {/* <MostPopular /> */}
         <Controls />
-        <Banner />
-        <Food_Cards /> */}
+        {/* <Banner /> */}
+        <Food_Cards />
     </div>
   );
 }
