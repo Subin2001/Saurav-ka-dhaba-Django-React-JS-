@@ -42,6 +42,11 @@
     color: black;
     margin-top: 2%;
 }
+.header-banner .banner-left .explore-btn:hover{
+    transform: scale(1.30);
+    transition: all .5s;
+    cursor: pointer;
+}
  
 .header-banner .banner-right{
     justify-content: center;
