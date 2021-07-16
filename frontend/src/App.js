@@ -1,14 +1,16 @@
 import {BrowserRouter as Router,Route} from 'react-router-dom'
 import HomeScreen from "./screens/HomeScreen";
-import Authentication from "./screens/Authentication";
+import LoginScreen from "./screens/LoginScreen"; 
+import RegisterScreen from './screens/RegisterScreen';
 
 
 function App() {
   return (
     <div className="App"> 
     <Router >
-      <Route path='/' component={HomeScreen} exact/>
-      <Route path='/login' component={Authentication} exact/>
+      <Route path='/' component={HomeScreen} exact />
+      <Route path='/login' component={LoginScreen} exact /> 
+      <Route path='/register' component={RegisterScreen} exact /> 
     </Router>
     </div>
   );

@@ -1,4 +1,4 @@
-.login-container{
+.register-container{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.8323704481792717) 65%, rgba(0,212,255,1) 100%);
     display: flex;
@@ -6,20 +6,20 @@
     width: 100%;
     border: 2px solid white;
 }
-.login-container .left-section,.login-container .right-section{
+.register-container .left-section,.register-container .right-section{
     width: 50%;
     display: flex;
     flex-direction: column;
     height: 100%; 
 }
-.login-container .left-section{
+.register-container .left-section{
     justify-content: flex-end;
 }
-.login-container .left-section:hover{  
+.register-container .left-section:hover{  
     width: 45%;
     transition: all 2s ease;
 }
-.login-container .right-section:hover{
+.register-container .right-section:hover{
     width: 55%;
     transition: all 2s ease;
 }
@@ -67,6 +67,6 @@
     transition: all .5s;
     border: 4px solid white;
 }
-.right-section .container .register{
+.right-section .container .login{
     margin-top: 5%;
 }

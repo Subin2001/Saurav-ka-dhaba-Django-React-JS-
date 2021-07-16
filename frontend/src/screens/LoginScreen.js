@@ -1,10 +1,9 @@
 import React from 'react'
 import Header from '../components/Header'
-import Login from '../components/Login'
+import Login from '../components/Login'  
 
 
-
-function Authentication() {
+function LoginScreen() {
     return (
         <div>
             <Header />
@@ -13,4 +12,4 @@ function Authentication() {
     )
 }
 
-export default Authentication
+export default LoginScreen
